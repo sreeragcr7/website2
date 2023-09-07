@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+:root {
+   --main-bg-color:royalblue;
+ }
+*{
+   margin: 0;
+   padding: 0;
+}
+header{
+   /* background: white; */
+   background-color:azure;
+   font-family: 'Rubik', sans-serif;   
+}
+nav{
+   display: flex;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   
+}
+.logo img{
+   width: 88px;
+   padding: 0 25px;
+}
+nav ul{
+   height:58px;
+   display: flex; 
+   justify-content: flex-start; 
+   align-items: center;
+}
+nav ul li{
+   list-style: none; 
+   padding: 0 25px;
+}
+nav ul li a{
+   color: var(--main-bg-color);
+   text-decoration: none;
+}
+nav ul li a:hover{
+   color: black;
+   font-weight: bold;
+}
+.search{
+   display: flex;
+   align-items: center;
+}
+.search input{
+    width: 30vw;  /*493 */
+   height: 27px;
+   margin: 0 12px 0 56px;
+   border: 2px solid var(--main-bg-color);
+  border-radius: 5px;
+  padding: 0 12px;
+}
+.search button{
+   font-family: 'Rubik', sans-serif;
+   font-weight: 100;
+}
+.slider{
+  /* margin: auto; */
+  margin-top: 12px;
+  display: flex;
+  overflow: hidden;
+}
+.sliderimg{
+   /* justify-content: center; */
+   margin: auto;
+}
+.card{
+   max-width: 91vw;
+   margin: auto; 
+   margin: 37px auto;
+}
+.cards{
+   display: flex;
+   overflow: hidden;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.card-item{
+   display: inline-flex;
+   justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    margin: 0 15px;
+    
+}
+.card h2{
+   /* font-family: 'Rubik', sans-serif; */
+   font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+   min-height: calc(100vh - 58px - 12vh);
+   
+}
+footer{
+   height: 12vh;
+   background-color: var(--main-bg-color);
+   color: white;
+   font-family: 'Rubik', sans-serif;
+}
